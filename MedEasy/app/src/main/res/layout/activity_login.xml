@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#ffffff">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerVertical="true"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    >
+  <android.widget.Toolbar
+
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:background="#68A7D4"
+      android:minHeight="100dp"
+      android:id="@+id/title">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MedEasy"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#ffffff"
+        android:textSize="45dp"
+        android:layout_marginTop="70dp"
+        android:fontFamily="sans-serif-black"/>
+  </android.widget.Toolbar>
+
+  <!--    <ImageView
+          android:layout_width="180dip"
+          android:layout_height="180dip"
+          android:layout_above="@id/input_email"
+          android:layout_gravity="center_horizontal"
+          android:src="@drawable/logo"></ImageView>  -->
+
+  <!-- Email Label -->
+
+
+
+
+  <EditText android:layout_width="280dp"
+      android:layout_height="wrap_content"
+      android:background="@drawable/round_button"
+      android:inputType="textEmailAddress"
+      android:layout_marginTop="30dp"
+      android:padding="10dp"
+      android:textColorHint="#000000"
+      android:textColor="#000000"
+      android:hint="Email"
+      android:drawableLeft="@drawable/ic_action_name_email"
+      android:id="@+id/editT1"
+      android:layout_gravity="center_horizontal"
+      />
+
+  <!-- Password Label -->
+
+
+  <EditText android:layout_width="280dp"
+      android:layout_height="wrap_content"
+      android:background="@drawable/round_button"
+      android:inputType="textPassword"
+      android:layout_marginTop="15dp"
+      android:padding="10dp"
+      android:textColorHint="#000000"
+      android:textColor="#000000"
+      android:hint="Password"
+      android:drawableLeft="@drawable/ic_action_name_lock"
+      android:id="@+id/editT2"
+      android:layout_gravity="center_horizontal"/>
+
+
+  <Button
+      android:id="@+id/button2"
+      android:layout_width="280dp"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:layout_marginTop="110dp"
+      android:layout_marginBottom="20dp"
+      android:background="@drawable/round_color"
+      android:fontFamily="sans-serif-black"
+      android:onClick="sign"
+      android:padding="10dp"
+      android:text="Login"
+      android:textColor="#000000" />
+
+
+  <Button
+      android:id="@+id/button3"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal"
+      android:width="280dp"
+      android:background="@drawable/round_color"
+      android:fontFamily="sans-serif-black"
+      android:onClick="register"
+      android:padding="10dp"
+      android:text="Register"
+      android:textColor="#000000" />
+
+<!--  <com.google.android.gms.common.SignInButton-->
+<!--      android:id="@+id/googleBtn"-->
+<!--      android:layout_width="332dp"-->
+<!--      android:layout_height="wrap_content"-->
+<!--      android:layout_gravity="center_horizontal"-->
+<!--      android:layout_marginBottom="15dp"-->
+<!--      android:padding="30dp">-->
+
+<!--  </com.google.android.gms.common.SignInButton>-->
+
+</LinearLayout>
+</ScrollView>

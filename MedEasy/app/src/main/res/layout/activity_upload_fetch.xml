@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".upload_fetch"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            >
+            <EditText
+                android:layout_marginTop="30dp"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/ed1"
+                android:hint="Tag for Document"
+                android:fontFamily="sans-serif-black"
+                android:textAlignment="center"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp">
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/ed"
+                android:layout_gravity="center"
+                android:text="Upload medicine name"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-black"
+                android:textAlignment="center"
+
+                />
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Upload"
+                android:padding="10dp"
+                android:onClick="upload"
+                android:background="@drawable/round_button"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="15dp"
+            >
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="See Other Profiles"
+                android:onClick="show"
+                android:padding="10dp"
+                android:background="@drawable/round_color"
+                android:layout_gravity="center"
+
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="See My Database"
+                android:onClick="change"
+                android:padding="10dp"
+                android:background="@drawable/round_color"
+                android:layout_gravity="center"
+                />
+            <Button
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="Share My Records"
+                android:padding="10dp"
+                android:background="@drawable/round_color"
+                android:onClick="share"
+                android:layout_gravity="center"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

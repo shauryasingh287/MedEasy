@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fetch"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="15dp"
+        android:padding="15dp"
+        android:orientation="horizontal"
+        >
+        <EditText
+
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/round_button"
+            android:hint="Tag"
+            android:id="@+id/search"
+            android:textStyle="bold"
+            android:inputType="textEmailAddress"
+            android:padding="10dp"
+            android:textColorHint="#000000"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_marginRight="15dp"
+            />
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@drawable/round_color"
+            android:padding="10dp"
+            android:onClick="Searchtag"
+            android:text="Search"
+            />
+
+    </LinearLayout>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/list"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1085352462506",
+    "firebase_url": "https://medical-record-a4b7d.firebaseio.com",
+    "project_id": "medical-record-a4b7d",
+    "storage_bucket": "medical-record-a4b7d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085352462506:android:b33c2675c34108426de8d3",
+        "android_client_info": {
+          "package_name": "com.example.medicalrecord"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1085352462506-lo8ka207ss23h66vdlot2uijr9qlmbc0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medicalrecord",
+            "certificate_hash": "8c7c9bd13bb125c52c375d5e895f7a44efecf418"
+          }
+        },
+        {
+          "client_id": "1085352462506-olalprdtj9oco9jrpb71metoe6trvpb6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABkHb1H_XztJAlEagaVQ-MopbK_kIoRsw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1085352462506-olalprdtj9oco9jrpb71metoe6trvpb6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
